@@ -7,12 +7,6 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            
-            <Image
-                Source="gato.jpg"
-                HeightRequest="350"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
                 Text="Bienvenido a mi programa! Realizado por Ricardo Herrera"
@@ -20,6 +14,12 @@
                 FontSize="40"
                 TextColor="LightSkyBlue"
                 SemanticProperties.HeadingLevel="Level1" />
+
+            <Image
+                Source="gato.jpg"
+                HeightRequest="350"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight"                                                                                                                                                                                                              />
 
             <Button
                 x:Name="NavigationChistes"

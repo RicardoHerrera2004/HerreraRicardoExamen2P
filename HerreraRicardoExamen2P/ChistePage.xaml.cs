@@ -11,7 +11,11 @@ public partial class ChistePage : ContentPage
     }
     private async void ObtenerChiste()
     {
-      return;
+        var client = new HttpClient();
+        var respuesta = await client.GetFromJsonAsync<Chiste>("https://official-joke-api.appspot.com/random_joke");
+
+        if (respuesta != null)
+            ChisteL.Text = $" Chiste: {respuesta.setup}\n\n Respuesta: {respuesta.punchline}"; ;
     }
 
     private void ContarChistes_Clicked(object sender, EventArgs e)
@@ -19,7 +23,7 @@ public partial class ChistePage : ContentPage
 		ObtenerChiste();
     }                                                                                                                                                                                                                                                           
 
-    public class chiste
+    public class Chiste
     {
         public string setup { get; set; }
         public string punchline { get; set; }
