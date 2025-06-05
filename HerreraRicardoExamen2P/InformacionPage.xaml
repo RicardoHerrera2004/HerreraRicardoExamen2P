@@ -3,10 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HerreraRicardoExamen2P.InformacionPage"
              Title="InformacionPage">
-    <VerticalStackLayout>
+
+    <Grid RowSpacing="100" ColumnSpacing="100">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+       Text="Nombre: Ricardo Herrera"
+       FontSize="30"
+       Grid.Row="0" Grid.Column="0"
+       BackgroundColor="LightBlue"/>
+
+        <Label 
+       Text="Fecha: 05/06/2025"
+       FontSize="30"
+       Grid.Row="0" Grid.Column="1"
+       BackgroundColor="LightBlue"/>
+
+        <Label 
+       Text="Intereses: Futbol y Programación"
+       FontSize="30"
+       Grid.Row="1" Grid.Column="0"
+       BackgroundColor="LightBlue"/>
+
+        <Label 
+       Text="Versión: 1.0.0"
+       FontSize="30"
+       Grid.Row="1" Grid.Column="1"
+       BackgroundColor="LightBlue"/>
+    </Grid>
+
 </ContentPage>
