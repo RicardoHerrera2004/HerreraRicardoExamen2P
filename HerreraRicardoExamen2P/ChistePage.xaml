@@ -21,6 +21,7 @@
             Clicked="ContarChistes_Clicked"
             BackgroundColor="LightSkyBlue"
             TextColor="Black"
-            HorizontalOptions="Fill" />
+            AbsoluteLayout.LayoutBounds="0.5, 1, 1, 50"
+            AbsoluteLayout.LayoutFlags="WidthProportional, PositionProportional"/>
     </AbsoluteLayout>
 </ContentPage>
