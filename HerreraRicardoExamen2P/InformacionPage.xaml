@@ -17,24 +17,32 @@
         <Label 
        Text="Nombre: Ricardo Herrera"
        FontSize="30"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
        Grid.Row="0" Grid.Column="0"
        BackgroundColor="LightBlue"/>
 
         <Label 
        Text="Fecha: 05/06/2025"
        FontSize="30"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
        Grid.Row="0" Grid.Column="1"
        BackgroundColor="LightBlue"/>
 
         <Label 
        Text="Intereses: Futbol y Programación"
        FontSize="30"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
        Grid.Row="1" Grid.Column="0"
        BackgroundColor="LightBlue"/>
 
         <Label 
        Text="Versión: 1.0.0"
        FontSize="30"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
        Grid.Row="1" Grid.Column="1"
        BackgroundColor="LightBlue"/>
     </Grid>

@@ -6,4 +6,9 @@ public partial class ChistePage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void ContarChistes_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
