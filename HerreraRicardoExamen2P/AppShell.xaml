@@ -7,9 +7,21 @@
     Shell.FlyoutBehavior="Disabled"
     Title="HerreraRicardoExamen2P">
 
-    <ShellContent
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+        <ShellContent
+        Title="Chiste"
+        ContentTemplate="{DataTemplate local:ChistePage}"
+        Route="ChistePage" />
+
+        <ShellContent
+        Title="Infomacion"
+        ContentTemplate="{DataTemplate local:InformacionPage}"
+        Route="InformacionPage" />
+    </FlyoutItem>
 
 </Shell>
